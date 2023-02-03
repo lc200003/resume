@@ -4,23 +4,23 @@
     background-size: cover;
 }
 
-aside,main {
+.aside,.main {
     float: left;
     width: 50%;
     height: 100vh;
 }
 
-main {
+.main {
     background: white;
 }
 
-aside {
+.aside {
     color: white;
     background: #188EEE url('../img/img.png') repeat;
 
 }
 
-aside:after, main:after {
+.aside:after, .main:after {
     content: "";
     display: table;
     clear: both;
